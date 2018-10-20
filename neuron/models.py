@@ -11,3 +11,6 @@ class Article(models.Model):
     
     #python manage.py makemigrations
     #python manage.py migrate
+    
+    def __str__(self):
+        return self.title
